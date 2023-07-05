@@ -23,6 +23,9 @@ from imblearn.pipeline import Pipeline
 from imblearn.over_sampling import SMOTENC
 from pyAgrum.lib.bn2graph import BN2dot 
 
+# ----- Para ejecutar este fichero, hacerlo desde la 'cmd' especificando el cancer de interés --------
+# ----- Ejemplo: 'python main.py cancer_endocrino'
+
 if (__name__ == "__main__") and (len(sys.argv) >= 2):
     cancer_interes = sys.argv[1]
     checkpoint = 1
